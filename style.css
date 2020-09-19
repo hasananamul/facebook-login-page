@@ -1,0 +1,194 @@
+#fb_header{
+    background-color: #3A5795;
+    padding: 7px 0px;
+}
+.fb_logo img {
+    margin-top: 15px;
+}
+.input_field form {
+    align-items: center;
+    justify-content: space-evenly;
+}
+.email_box {
+    color: #ffffff;
+    margin-right: 20px;
+}
+.email_box input,.password_box input{
+    display: block;
+}
+.email_box input:focus,.password_box input:focus{
+    outline: 0px;
+}
+.email_box label, .password_box label {
+    display: block;
+    margin: 0;
+    font-size: 15px;
+}
+.email_box input[type="checkbox"]{
+    display: inline-block;
+}
+.email_box label[for="check"] {
+    display: inline-block;
+    font-size: 12px;
+    position: relative;
+    top: -2px;
+    color: #9daccb;
+}
+.password_box{
+    color: #ffffff;
+}
+.password_box span{
+    color: #9daccb;
+    font-size: 12px;
+}
+.submit_button {
+    padding: 0 5px;
+    background-color: #5A74A8;
+    color: #ffffff;
+    font-size: 15px;
+    border: 0;
+}
+.submit_button:focus{
+    outline: 0px;
+}
+/* main content */
+#main_content{
+    background-color: #EDF0F5;
+}
+.left_content .text {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 90%;
+}
+.left_content .text h2 {
+	font-weight: 600;
+	text-transform: capitalize;
+	font-size: 29px;
+}
+.left_items{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.left_items img{
+    margin-right: 15px;
+}
+.left_items p {
+	font-size: 20px;
+	font-weight: 600;
+}
+.left_items span{
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.right_text h1 {
+	margin-top: 20px;
+	font-weight: 600;
+}
+.right_text h5 {
+	color: #666;
+	margin-bottom: 22px;
+}
+.input_boxes input {
+	margin-bottom: 19px;
+    padding: 4px 8px;
+    font-size: 18px;
+}
+.input_boxes input[type="text"] {
+	width: 38%;
+}
+.input_boxes input[type="password"] {
+	width: 77%;
+}
+.input_boxes .email_phone {
+	width: 77% !important;
+}
+.select_items_boxes h3 {
+	font-size: 25px;
+	color: #666;
+	font-weight: 500;
+}
+.select_box select {
+	text-transform: capitalize;
+	border: 1px solid #bdc7d8;
+	float: left;
+}
+.select_box a {
+	color: #666;
+	margin-left: 12px;
+}
+.radio_button {
+	margin-top: 17px;
+	font-size: 18px;
+}
+.select_text {
+	margin-top: 15px;
+	font-size: 11px;
+	width: 70%;
+	color: #777;
+	margin-bottom: 25px;
+}
+.input_button button {
+	background: linear-gradient(#65aa53,#5c9048);
+	color: #fff;
+	padding: 4px 50px;
+	border-radius: 7px;
+	font-size: 20px;
+    box-shadow: 0 1px 1px #a4e388 inset;
+    transition: .4s;
+}
+.input_button button:hover{
+    background:linear-gradient(#77B862,#5C8F47);
+}
+.under_form a{
+    color: #3b5998;
+}
+.under_form span{
+    color: #666;
+}
+/* foote section */
+.footer{
+    padding-bottom: 30px;
+}
+.footer_top {
+	padding-top: 40px;
+	padding-bottom: 0;
+}
+.footer_top_item ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0px;
+}
+.footer_top_item ul li a{
+    display: inline-block;
+    padding: 5px 10px;
+    color: #3b5998;
+    font-size: 12px;
+}
+.dotdot{
+    background-color: #f1f1f1;
+    transition: .4s;
+}
+.dotdot:hover{
+    background-color: #6D84B4;
+}
+.dotdot a:hover{
+    color: #fff;
+}
+.footer_bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer_menu_item ul{
+    list-style: none;
+    padding: 0px;
+}
+.footer_menu_item ul li a{
+    display: inline-block;
+    padding: 5px 10px;
+    color: #3b5998;
+    font-size: 12px;
+}
